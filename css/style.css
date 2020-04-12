@@ -1,0 +1,83 @@
+@import 'font.css';
+
+
+
+body {
+
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+} 
+
+.menu-bar {
+    color: #212121;
+    padding: 20px 0;
+    background: white;
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__item a {
+    font-family: 'Open Sans Semibold';
+    font-size: 18pt;
+    color: #212121;
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #868686;
+}
+
+.header .container {
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    background-image: url('../img/header.png');
+    padding-bottom: 180px;
+    background-size: cover;
+    background-position: 0 100%;
+}
+
+.header__title {
+    font-family: 'Open Sans Semibold';
+    font-size: 55px;
+}
+
+.header__text {
+    font-family: 'Open Sans Semibold';
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.7s; /*  плавность срабатывания */
+}
+
+.button_empty {
+    background: transparent; /* прозрачный фон */
+    border: 2px solid white;
+    font-size: 18px;
+}
+
+.button_full {
+    background: #00897b;
+    border: 2px solid #00897b;
+    font-size: 18px;
+}
+
+.button_empty:hover,
+.button_full:hover {
+    border: 2px dotted white;
+    background: #04665c;
+}
+
+
