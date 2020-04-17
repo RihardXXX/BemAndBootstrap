@@ -7,8 +7,18 @@
 //     })
 // });
 
-$(document).ready(function () {
-    $('button[filter="web"]').click(function () {
-        $('.filter > div').hide(400);
-    });
-});
+// $(document).ready(function () {
+//     $('button[filter="web"]').click(function () {
+//         $('.filter>div[filter="moc"],div[filter="ux"]').hide();
+//     });
+//     $('button[filter="all"]').click(function () {
+//         $('.filter>div[filter="moc"],div[filter="ux"]').hide();
+//     });
+//     $('button[filter="ux"]').click(function () {
+//         $('.filter>div[filter="moc"],div[filter="web"]').hide();
+//     });
+//     $('button[filter="all"]').click(function () {
+//         $('.filter>div[filter="moc"],div[filter="ux"]').hide();
+//     });
+// });
+

@@ -200,3 +200,89 @@ ul, li {
 .portfolio .view_all {
     padding: 25px 65px;
 }
+
+/* pricing */
+
+.pricing {
+    background: #f0f1f1;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+.price {
+    background:white;
+    box-sizing: border-box;
+}
+
+.price:hover {
+    box-shadow: 0px 11px 18px 2px rgba(0,0,0,0.54);
+    transition: 0.5s;
+}
+
+.price_head {
+    font-size: 50px;
+    background-image: url('../img/Rectangle\ 14.png');
+    padding-top: 45px;
+    padding-bottom: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.price_head_h1 {
+    font-size: 25px;
+}
+
+.price_head_p {
+    font-size: 17px;
+}
+
+.price_head sup {
+    vertical-align: middle;
+}
+
+.price_head sub {
+    vertical-align: center;
+}
+
+
+.price_body {
+    font-size: 17px;
+    color: #505050;
+}
+
+.price_body hr {
+    color: #bfbfbf;
+    width: 180px;
+}
+
+.price_body ul {
+    margin-bottom: 0px;
+}
+
+.price_body li {
+    margin-bottom: 16px;
+    margin-top: 37px;
+}
+
+.price_footer {
+    padding-top: 48px;
+    padding-bottom: 63px;
+}
+
+.price_footer button{
+    padding: 20px 30px;
+    color: #202020;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+    background: none;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+.price_footer button:hover {
+    background: #00897b;
+    color: white;
+    border: 2px solid #00897b;
+}
